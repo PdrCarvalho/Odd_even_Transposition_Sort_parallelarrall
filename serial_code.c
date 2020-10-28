@@ -43,12 +43,6 @@ int main(int argc, char const *argv[])
         
     }
     time_t end_process = time(NULL);
-    // for (int i = 0; i < N; i++)
-    // {
-    //     printf("%d ",array[i]);
-    //     if(i==N-1)printf("\n");
-    // }
-    double Result = 0.00;
     FILE *fp;
     char outputFilename[] = "serial_time.txt";
     fp = fopen(outputFilename, "a");
@@ -56,7 +50,7 @@ int main(int argc, char const *argv[])
         fprintf(stderr, "Can't open output file %s!\n", outputFilename);
         exit(1);
     }
-    fprintf(fp,"\nProblem=%d Result=%1.2f process time=%ld\n", N,Result,(end_process - start_process));
+    fprintf(fp,"%d,%ld,\n", N,(end_process - start_process));
     fclose(fp);
     return 0;
 }

@@ -183,8 +183,8 @@ int main(int argc, char *argv[])
     //MPI_Barrier(MPI_COMM_WORLD);
     MPI_Gather(local_array, local_N, MPI_INT, array, local_N, MPI_INT, 0, MPI_COMM_WORLD);
     MPI_Finalize();
-    if (taskid == 0)
-    {
+    
+    /* 
         printf("\n");
         for (int i = 0; i < N; i++)
         {
@@ -193,22 +193,22 @@ int main(int argc, char *argv[])
                 printf("\n");
         }
     }
-     else
+     else */
+    if (taskid != 0)
     {
         return 0;
     }
 
     time_t end_process = time(NULL);
-    double Result = 0.00;
     FILE *fp;
-    char outputFilename[] = "serial_time.txt";
+    char outputFilename[] = "parallel_code.txt";
     fp = fopen(outputFilename, "a");
     if (fp == NULL)
     {
         fprintf(stderr, "Can't open output file %s!\n", outputFilename);
         exit(1);
     }
-    fprintf(fp, "\nProblem=%d Result=%1.2f process time=%ld\n", N, Result, (end_process - start_process));
+    fprintf(fp, "%d,%ld,%d\n", N,(end_process - start_process),cores);
     fclose(fp); 
     return 0;
 }

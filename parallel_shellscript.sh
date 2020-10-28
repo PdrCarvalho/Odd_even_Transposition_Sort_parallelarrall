@@ -14,13 +14,13 @@ mpicc -g -Wall parallel_code.c -o parallel_code
 #OBRIGATÓRIO: Laço de iteração para resgate dos tempos de acordo com "cores" e "size"
 
 #Loop principal de execuções. São 10 tentativas
-	tentativas=1 #Quantas vezes o código será executado dado um par (cores,size)
+	tentativas=5 #Quantas vezes o código será executado dado um par (cores,size)
 
-	for cores in 4  #números de cores utilizados
+	for cores in 2 4 8 #números de cores utilizados
 	do
-			for size in 20 #tamanho do problema
+			for size in 128000 140000 150000 160000 #tamanho do problema
 			do   	
-				echo -e "\n$cores\t$size\t\t\c" >> "parallel_time.txt" 
+				#echo -e "\n$cores\t$size\t\t\c" >> "parallel_time.txt" 
 
 				for tentativa in $(seq $tentativas) #Cria uma vetor de 1 a "tentativas"
 				do

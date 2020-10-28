@@ -1,87 +1,20 @@
-
-1000000		
-Problem=8 Result=0.00 process time=0
-
-Problem=8 Result=0.00 process time=0
-
-Problem=8 Result=0.00 process time=0
-
-Problem=8 Result=0.00 process time=0
-
-Problem=8 Result=0.00 process time=1
-
-Problem=8 Result=0.00 process time=1
-
-Problem=8 Result=0.00 process time=1
-
-Problem=8 Result=0.00 process time=1
-
-Problem=8 Result=0.00 process time=0
-
-Problem=8 Result=0.00 process time=0
-
-Problem=8 Result=0.00 process time=0
-
-Problem=8 Result=0.00 process time=0
-
-Problem=8 Result=0.00 process time=1
-
-Problem=8 Result=0.00 process time=1
-
-Problem=16 Result=0.00 process time=0
-
-Problem=16 Result=0.00 process time=0
-
-Problem=16 Result=0.00 process time=0
-
-Problem=16 Result=0.00 process time=0
-
-Problem=16 Result=0.00 process time=0
-
-Problem=16 Result=0.00 process time=0
-
-Problem=16 Result=0.00 process time=0
-
-Problem=16 Result=0.00 process time=0
-
-Problem=16 Result=0.00 process time=1
-
-Problem=16 Result=0.00 process time=1
-
-Problem=16 Result=0.00 process time=1
-
-Problem=16 Result=0.00 process time=1
-
-Problem=16 Result=0.00 process time=0
-
-Problem=16 Result=0.00 process time=1
-
-Problem=16 Result=0.00 process time=1
-
-Problem=16 Result=0.00 process time=0
-
-Problem=16 Result=0.00 process time=1
-
-Problem=16 Result=0.00 process time=0
-
-Problem=16 Result=0.00 process time=1
-
-Problem=16 Result=0.00 process time=0
-
-Problem=16 Result=0.00 process time=0
-
-Problem=16 Result=0.00 process time=0
-
-Problem=16 Result=0.00 process time=0
-
-Problem=16 Result=0.00 process time=1
-
-Problem=16 Result=0.00 process time=1
-
-Problem=16 Result=0.00 process time=0
-
-Problem=8 Result=0.00 process time=1
-
-Problem=8 Result=0.00 process time=0
-
-Problem=20 Result=0.00 process time=1
+128000,30,
+128000,31,
+128000,31,
+128000,31,
+128000,31,
+140000,36,
+140000,37,
+140000,37,
+140000,37,
+140000,37,
+150000,42,
+150000,43,
+150000,42,
+150000,42,
+150000,43,
+160000,48,
+160000,48,
+160000,48,
+160000,48,
+160000,48,
